@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarteel Darabee | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tarteel Darabee</h1>
+    <p>Frontend Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate frontend web developer with a love for clean and responsive design.</p>
+      <img src="myphoto.jpg" alt="Tarteel Darabee" class="profile-img" />
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Flexbox</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="profile">
+      <h2>Profile</h2>
+      <table>
+        <tr>
+          <th>Full Name</th>
+          <td>Tarteel Darabee</td>
+        </tr>
+        <tr>
+          <th>Major</th>
+          <td>Computer Engineering</td>
+        </tr>
+        <tr>
+          <th>University</th>
+          <td>[Palestine Technical University - Kadoorie]</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>darabeetarteel.ttt2003@gmail.com</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form onsubmit="event.preventDefault(); alert('Thank you!');">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tarteel Darabee. All rights reserved.</p>
+  </footer>
+</body>
+</html>
